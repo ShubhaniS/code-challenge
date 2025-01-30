@@ -1,4 +1,5 @@
 import * as _React from "react";
+import { GridWrapper, ListWrapper } from "./List.styles";
 
 type Pokemon = {
   name: string;
@@ -11,12 +12,12 @@ type ListProps = {
 
 export const List: React.FC<ListProps> = ({ result }) => {
   return (
-    <ul>
+    <GridWrapper>
       {result.map((pokemon, index) => (
-        <li key={index}>
+        <ListWrapper key={index}>
           <p>{pokemon.name}</p>
-        </li>
+        </ListWrapper>
       ))}
-    </ul>
+    </GridWrapper>
   );
 };
