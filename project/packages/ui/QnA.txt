@@ -21,3 +21,5 @@
    b. Comparison become efficient , we just have to check the reference if different dats is changed
    c. Better memory management
    d. Easy testing and collaboration
+
+6. By checking the stateupdate by console.log, Using reduxToolkit devTools, Using async action listeners (createAyncThunk)
