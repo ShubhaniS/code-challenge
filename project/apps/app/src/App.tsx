@@ -22,9 +22,7 @@ const PokemonList = () => {
 
   if (isLoading) return <p>Loading..</p>;
   if (error instanceof Error) return <p>{error.message}</p>;
-  console.log("data", data.results);
-  // in 2nd task will the result as prop = item={data.results}
-  return <List />;
+  return <List result={data.results} />;
 };
 
 const App = () => {
