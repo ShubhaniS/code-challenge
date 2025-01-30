@@ -3,3 +3,21 @@
 1. I used TanStack to fetch the Pokemon names from api.
 
 2. Improve it by detting a staleTime and trigger refresh, use in built pagination,     handle error more gracefully by using retry stragery.
+
+3. Don't have any question assosiated
+
+4. In Redux Reducers - 
+   a.we have to manually define action type and create actions
+   b. Return a new object with updated value, so that state is not mutated directly
+   c. more bolierplate
+   In reduxToolkit 
+   a. it automaticaly does for us
+   b. Allows to mutate state directly
+   c. Less bolierplate
+
+5. Immutable : Never directly modify the original data, make a copy and update it
+   Benefits:
+   a. No side effect that make flow of application more predictable thus helping in debugging
+   b. Comparison become efficient , we just have to check the reference if different dats is changed
+   c. Better memory management
+   d. Easy testing and collaboration
