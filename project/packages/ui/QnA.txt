@@ -23,3 +23,22 @@
    d. Easy testing and collaboration
 
 6. By checking the stateupdate by console.log, Using reduxToolkit devTools, Using async action listeners (createAyncThunk)
+
+7. UseEffect hook allows to handle side effects in functional component 
+   Example:
+   a. Fetching data
+   b. Subscribing to events
+   c. Updating the DOM
+   d. setting timer
+
+8. HOC are component that take comp as paramter and return a component. It allows the to code reuse,  abstracte logic, and modify component behavior without modifying the component itself.
+
+9. Useful when we have to reuse the code, abstracte logic, and modify component behavior without modifying the component itself.
+
+10. use - built in or custom react hook, with - for HOCs
+
+11. Generics in typeScript allow to create  reusable, flexible,  and type-safe components/ functions that work with multiple types instead of just one specific type.
+
+12. A controlled input is an input field where React controls the state, updated with useState
+An uncontrolled input lets the DOM handle the value instead of React, updated by useRef
+(not recommended)
