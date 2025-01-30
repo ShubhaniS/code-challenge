@@ -1,0 +1,5 @@
+// Answered the questions..
+
+1. I used TanStack to fetch the Pokemon names from api.
+
+2. Improve it by detting a staleTime and trigger refresh, use in built pagination,     handle error more gracefully by using retry stragery.
